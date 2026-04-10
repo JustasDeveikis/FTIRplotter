@@ -43,18 +43,9 @@ if __name__ == "__main__":
         maintained.
     """
     
-    if 0:
-        dataBBrefl = FTIRreader(
-            folder="dataBlueBronzeCRY14Refl",
-            sample_prefix="BlueBronzeCRY14",
-            reference_prefix="GoldMirrorCRY14",
-            x_limits = (200, 2000),
-            )
-    
-    
     if 1:
         dataBBrefl = FTIRreader(
-            folder="dataBlueBronzePolWrong",
+            folder="dataTest",
             sample_prefix="BlueBronzeBB1",
             reference_prefix="GoldMirror",
             x_limits = (350, 2000),
